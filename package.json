@@ -1,0 +1,17 @@
+{
+  "name": "cse-341-project1",
+  "version": "1.0.0",
+  "description": "My first project",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "(index.js) server.js"
+  },
+  "license": "ISC",
+  "author": "Lehi Ita Daniel",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
