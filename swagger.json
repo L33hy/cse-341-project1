@@ -5,7 +5,7 @@
     "description": "Users Api",
     "version": "1.0.0"
   },
-  "host": "https://project1-ugd3.onrender.com",
+  "host": "project1-ugd3.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
