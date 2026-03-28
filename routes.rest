@@ -1,0 +1,33 @@
+//LOCALHOST
+### Get all users
+
+Get http://localhost:3000/users
+
+### Get user by id
+
+Get http://localhost:3000/users/69c14fee5793475cf5ccf61b
+
+### Create user
+
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Seth",
+    "lastName": "Ita",
+    "email": "seth.ita@example.com",
+    "favouriteColor": "Pink",
+    "birthday": "1993-27-09"
+}
+
+### PUT user
+
+PUT http://localhost:3000/users/69c152d45793475cf5ccf61c HTTP/1.1
+content-type: application/json
+
+{
+    "userName": "Wellington",
+    "email": "george.wellington@example.com",
+    "name": "George Wellington",
+    "ipaddress": "94897531001390434985"
+}
